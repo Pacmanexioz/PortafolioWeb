@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="Titulo">Holamundo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/Menu.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="left-section">
+        <div class="logo" data-lang="Logo">Mi Portafolio</div>
+
+        <div class="language-selector">
+        <select id="language">
+            <option value="es">Español 🇲🇽</option>
+            <option value="en">English 🇺🇸</option>
+            <option value="fr">Français 🇫🇷</option>
+        </select>
+        </div>
+    </div>
+    <button class="MenuH" id="menu">☰</button>
+    <ul class="NavLink" id="links">
+        <li><a href="#inicio" data-lang="NavPrincipal">Inicio</a></li>
+        <li><a href="#acerca" data-lang="NavAcerca">Sobre mí</a></li>
+        <li><a href="#habilidades" data-lang="NavHabilidades">Tecnologías</a></li>
+        <li><a href="#insignias" data-lang="NavInsignias"></a></li>
+        <li><a href="#proyectos" data-lang="NavProyecto">Proyectos</a></li>
+        <li><a href="#contacto" data-lang="NavContacto">Contacto</a></li>
+    </ul>
+    </nav>
+    <header class="Inicio" id="inicio">
+        <div class="content">
+            <div class="text">
+                <h1 data-lang="NombreAlumno">Carlos Eduardo Zamudio Coronado</h1>
+                <h2 data-lang="Subtitulo">Sitio Web de Portafolio Personal</h2>
+            </div>
+        </div>
+    </header>
+    <section class="Sobremi" id="acerca">
+        <div class="content">
+            <div class="text">
+                <h2 data-lang="TituloPerfil">Perfil profesional</h2>
+                <p data-lang="TextoPerfil">
+                    Estudiante de Tecnologías de la información con interés en las redes y ciberseguridad, Con conocimientos de protocolos y prácticas básicas de seguridad.
+                    Busco una oportunidad para aplicar mis conocimientos y obtener nuevos aprendizajes con la práctica. 
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/fotoformal.jpeg" alt="Foto de perfil">
+            </div>
+        </div>
+    </section>
+    <section class="Habilidades" id="habilidades">
+        <div class="content">
+            <div class="text">
+                <h2 data-lang="Tecnologias">Tecnologías aprendidas</h2>
+                    <table class="TablaHabilidades">
+                        <thead>
+                            <tr>
+                                <th data-lang="ThTecnologia">Tecnología</th>
+                                <th data-lang="ThDescripcion">Descripción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MySQL</td>
+                                <td data-lang="TdMySQL">Manejo y administración de bases de datos.</td>
+                            </tr>
+                            <tr>
+                                <td>HTML5 y CSS3</td>
+                                <td data-lang="TdHTML">Desarrollo y diseño de interfaces web modernas y responsivas.</td>
+                            </tr>
+                            <tr>
+                                <td>C++</td>
+                                <td data-lang="TdC">Lenguajes de programación para desarrollo de software multiplataforma.</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td data-lang="TdJava">Conocimientos en la GUI para el diseño y desarrollo de aplicaciones de escritorio.</td>
+                            </tr>
+                            <tr>
+                                <td>Kotlin</td>
+                                <td data-lang="TdKotlin">Desarrollo de aplicaciones móviles Nativas en Android.</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td data-lang="TdPython">Conocimiento básico del lenguaje para desarrollar scripts de visión artificial y creación de malware como ransomware o bots de spam.</td>
+                            </tr>
+                            <tr>
+                                <td data-lang="TdSistemas">Sistemas Operativos</td>
+                                <td data-lang="TdSO">Conocimiento en creación de scripts en la bash de Linux y conocimiento en las distribuciones de CentOS, Unbuntu, Fedora y Kali Linux + conocimiento en NMap y WireShark.</td>
+                            </tr>
+                            <tr>
+                                <td data-lang="TdServer">Servidores y servicios</td>
+                                <td data-lang="TdServers">Ligeros conocimientos para montar servidores usando Apache, Apache Tomcat y php.</td>
+                            </tr>
+                            <tr>
+                                <td data-lang="TdRed">Redes</td>
+                                <td data-lang="TdRedes">Conocimientos en mantenimiento, administración y estructura de redes por medio del simulador Cisco Packet Tracer.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+         <div class="images">
+            <img src="images/HTML.png" alt="HTML">
+            <img src="images/CSS.png" alt="CSS">
+            <img src="images/C++.png" alt="C++"> 
+            <img src="images/Python.png" alt="Python"> 
+            <img src="images/Java.png" alt="Java"> 
+            <img src="images/kotlin.webp" alt="Kotlin">
+            <img src="images/kaliLinux.png" alt="Kali Linux">
+            <img src="images/Fedora.png" alt="Fedora Linux">
+            <img src="images/ApacheTomcat.png" alt="Apache Tomcat"> 
+         </div> 
+    </section>
+    <section class="Insignias" id="insignias">
+        <h2 data-lang="Insignias">Insignias obtenidas</h2>
+        <div class="content insignias-grid">
+            <div class="images">
+                <a href="https://www.credly.com/badges/278526b6-0378-4738-81b7-b3f67c8d85d9" target="_blank"> 
+                    <img src="images/networktechnician.png" alt="Network Technician" class="hover-image">
+                </a>
+            </div>
+            <div class="images">
+                <a href="https://www.credly.com/badges/3b43785e-9dd0-44d8-9f9d-4d0fd920fb7d" target="_blank"> 
+                    <img src="images/ccnaSwitchingRoutingWLEssentials.png" alt="CCNA Switching Routing" class="hover-image">
+                </a>
+            </div>
+            <div class="images">
+                <a href="https://www.credly.com/badges/e1a7c77f-bfea-4ca3-9ead-fcf4b91d1297" target="_blank"> 
+                    <img src="images/IntroductionToCybersecurity.png" alt="Introduction to Cybersecurity" class="hover-image">
+                </a>
+            </div>
+            <div class="images">
+                <a href="https://www.credly.com/badges/420416dd-392c-40fd-8718-6bfb24c1ff47" target="_blank"> 
+                    <img src="images/BadgeHTML.png" alt="Network Introduction" class="hover-image">
+                </a>
+            </div>
+            <div class="images">
+                <a href="https://www.credly.com/badges/c4950616-1453-4bee-94eb-06280d0b806d" target="_blank"> 
+                    <img src="images/BadgeCSS.png" alt="Network Introduction" class="hover-image">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="Proyectos" id="proyectos">
+        <div class="content">
+            <div class="project">
+                <h2 data-lang="Proyectos">Proyectos en los que he participado</h2>
+                <p data-lang="Nuvii"><strong>Nuvvi: Gestor de comandas</strong></p>
+            <div class="images">
+                <img src="images/nuvii.png" alt="Nuvii">
+            </div>
+            <a href="https://www.figma.com/design/KkSWqMlwy42FwJDXx8gFFD/Nuvii?node-id=0-1&t=3seFYrFPY9VbSnyP-1" data-lang="aNuvii">Enlace de Pantallas de prototipo de Nuvii</a>
+            </div>
+            <div class="project">
+                <p data-lang="Recolecta"><strong>Recolecta: App para el servicio de basura en Mazatlán</strong></p>
+            <div class="images">
+                <img src="images/recolecta.png" alt="Recolecta">
+            </div>
+            <a href="https://www.figma.com/design/ylkd56zTtwUVEizpQD0gTx/pantallas-principales?node-id=0-1&t=aJVgnzxFXLeG3JHT-1" data-lang="aRecolecta">Enlace de Pantallas de prototipo de Recolecta</a>
+            </div>
+        </div>
+    </section>
+</body>
+    <footer id="contacto">
+        <div class="footer-content">
+            <div>
+                <h3 data-lang="Social">Redes Sociales Profesionales</h3>
+                <p>GitHub: carlos-zamudio</p>
+                <p>GitLab: @2024030367</p>
+                <p>LinkedIn: Carlos Zamudio</p>
+            </div>
+            <div>
+                <h3 data-lang="Email">Email</h3>
+                <p>2024030367@upsin.edu.mx</p>
+            </div>
+            <div>
+                <h3 data-lang="CV">Mi CV</h3>
+                <button class="cv-button" onclick="AbrirPDF()" data-lang="VerCV">Ir allá</button>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Info_visible.js"></script>
+    <script src="js/Traduccion.js"></script>
+    <script src="js/abrircv.js"></script>
+</html>
